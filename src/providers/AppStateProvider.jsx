@@ -137,6 +137,7 @@ const prototypesData = [
   ];
 
 const AppStateProvider = ({children}) => {
+    // eslint-disable-next-line no-unused-vars
     const [prototypes, setPrototypes] = useState(prototypesData);
     const [orders, setOrders] = useState([]);
 
